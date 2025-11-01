@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Focus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Pomodoro Focus</h1>
+
+        <div class="timer">
+            <svg class="progress" width="200" height="200">
+                <circle class="track" cx="100" cy="100" r="90"/>
+                <circle class="fill" cx="100" cy="100" r="90"/>
+            </svg>
+            <div id="time">25:00</div>
+        </div>
+
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <p class="subtext">Stay focused. Stay productive.</p>
+    </div>
+
+    <audio id="alarm" src="beep.mp3"></audio>
+    <script src="script.js"></script>
+
+</body>
+</html>
