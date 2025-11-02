@@ -30,13 +30,7 @@ This project provides a clean, distraction-free timer made specifically for prod
 - HTML
 - CSS (minimal aesthetic UI)
 - Vanilla JavaScript (no libraries)
-
-## 🎯 Future Improvements
-- Break mode (5 minutes)
-- Dark mode
-- Custom timer length
-- Task counter
-
+  
 ---
 
 Feel free to fork or improve the project ✅  
